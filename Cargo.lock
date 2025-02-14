@@ -360,9 +360,9 @@ checksum = "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec"
 
 [[package]]
 name = "yule_log"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f4c867b92c15d39f483f411d040473adfabca474b195221d71b86daae8647181"
+checksum = "734bfbbcb24a4eae58ea7e4ed88dba7d24fd84e90913c0e7ee539bad8f838949"
 dependencies = [
  "byteorder",
  "env_logger",

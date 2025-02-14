@@ -64,7 +64,7 @@ fn process_file(path: &Path) -> Result<(), Box<dyn Error>> {
             msg::UlogMessage::LoggedData(logged_data) => {
                 let field_list:Vec<(String, inst::BaseType)> = logged_data.data.flatten();
 
-                for (index, (path, value)) in field_list.iter().enumerate() {
+                for (_index, (path, value)) in field_list.iter().enumerate() {
                     let column = column_map.entry(path.clone()).
                         or_insert_with(|| Column::new(path.to_owned()));
 
